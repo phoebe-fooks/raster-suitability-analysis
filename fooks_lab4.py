@@ -7,6 +7,7 @@
 import rasterio
 import numpy as np
 from rasterio.plot import show
+#add to code
 
 #The site cannot contain urban areas.
 urban_rs = rasterio.open('urban_areas.tif')
